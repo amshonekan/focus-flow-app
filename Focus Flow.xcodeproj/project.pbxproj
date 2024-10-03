@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443146452CAEE20A0050560B /* Focus_FlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443146442CAEE20A0050560B /* Focus_FlowApp.swift */; };
+		443146472CAEE20A0050560B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443146462CAEE20A0050560B /* ContentView.swift */; };
+		443146492CAEE20A0050560B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443146482CAEE20A0050560B /* Item.swift */; };
+		4431464B2CAEE20B0050560B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4431464A2CAEE20B0050560B /* Assets.xcassets */; };
+		4431464F2CAEE20B0050560B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4431464E2CAEE20B0050560B /* Preview Assets.xcassets */; };
+		443146592CAEE20B0050560B /* Focus_FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443146582CAEE20B0050560B /* Focus_FlowTests.swift */; };
+		443146632CAEE20B0050560B /* Focus_FlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443146622CAEE20B0050560B /* Focus_FlowUITests.swift */; };
+		443146652CAEE20B0050560B /* Focus_FlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443146642CAEE20B0050560B /* Focus_FlowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		443146552CAEE20B0050560B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 443146392CAEE20A0050560B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443146402CAEE20A0050560B;
+			remoteInfo = "Focus Flow";
+		};
+		4431465F2CAEE20B0050560B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 443146392CAEE20A0050560B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 443146402CAEE20A0050560B;
+			remoteInfo = "Focus Flow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		443146412CAEE20A0050560B /* Focus Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Focus Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		443146442CAEE20A0050560B /* Focus_FlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_FlowApp.swift; sourceTree = "<group>"; };
+		443146462CAEE20A0050560B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		443146482CAEE20A0050560B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4431464A2CAEE20B0050560B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4431464C2CAEE20B0050560B /* Focus_Flow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Focus_Flow.entitlements; sourceTree = "<group>"; };
+		4431464E2CAEE20B0050560B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		443146542CAEE20B0050560B /* Focus FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		443146582CAEE20B0050560B /* Focus_FlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_FlowTests.swift; sourceTree = "<group>"; };
+		4431465E2CAEE20B0050560B /* Focus FlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Focus FlowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		443146622CAEE20B0050560B /* Focus_FlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_FlowUITests.swift; sourceTree = "<group>"; };
+		443146642CAEE20B0050560B /* Focus_FlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_FlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4431463E2CAEE20A0050560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443146512CAEE20B0050560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4431465B2CAEE20B0050560B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443146382CAEE20A0050560B = {
+			isa = PBXGroup;
+			children = (
+				443146432CAEE20A0050560B /* Focus Flow */,
+				443146572CAEE20B0050560B /* Focus FlowTests */,
+				443146612CAEE20B0050560B /* Focus FlowUITests */,
+				443146422CAEE20A0050560B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		443146422CAEE20A0050560B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443146412CAEE20A0050560B /* Focus Flow.app */,
+				443146542CAEE20B0050560B /* Focus FlowTests.xctest */,
+				4431465E2CAEE20B0050560B /* Focus FlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443146432CAEE20A0050560B /* Focus Flow */ = {
+			isa = PBXGroup;
+			children = (
+				443146442CAEE20A0050560B /* Focus_FlowApp.swift */,
+				443146462CAEE20A0050560B /* ContentView.swift */,
+				443146482CAEE20A0050560B /* Item.swift */,
+				4431464A2CAEE20B0050560B /* Assets.xcassets */,
+				4431464C2CAEE20B0050560B /* Focus_Flow.entitlements */,
+				4431464D2CAEE20B0050560B /* Preview Content */,
+			);
+			path = "Focus Flow";
+			sourceTree = "<group>";
+		};
+		4431464D2CAEE20B0050560B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4431464E2CAEE20B0050560B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		443146572CAEE20B0050560B /* Focus FlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				443146582CAEE20B0050560B /* Focus_FlowTests.swift */,
+			);
+			path = "Focus FlowTests";
+			sourceTree = "<group>";
+		};
+		443146612CAEE20B0050560B /* Focus FlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				443146622CAEE20B0050560B /* Focus_FlowUITests.swift */,
+				443146642CAEE20B0050560B /* Focus_FlowUITestsLaunchTests.swift */,
+			);
+			path = "Focus FlowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443146402CAEE20A0050560B /* Focus Flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443146682CAEE20B0050560B /* Build configuration list for PBXNativeTarget "Focus Flow" */;
+			buildPhases = (
+				4431463D2CAEE20A0050560B /* Sources */,
+				4431463E2CAEE20A0050560B /* Frameworks */,
+				4431463F2CAEE20A0050560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Focus Flow";
+			productName = "Focus Flow";
+			productReference = 443146412CAEE20A0050560B /* Focus Flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		443146532CAEE20B0050560B /* Focus FlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4431466B2CAEE20B0050560B /* Build configuration list for PBXNativeTarget "Focus FlowTests" */;
+			buildPhases = (
+				443146502CAEE20B0050560B /* Sources */,
+				443146512CAEE20B0050560B /* Frameworks */,
+				443146522CAEE20B0050560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443146562CAEE20B0050560B /* PBXTargetDependency */,
+			);
+			name = "Focus FlowTests";
+			productName = "Focus FlowTests";
+			productReference = 443146542CAEE20B0050560B /* Focus FlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4431465D2CAEE20B0050560B /* Focus FlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4431466E2CAEE20B0050560B /* Build configuration list for PBXNativeTarget "Focus FlowUITests" */;
+			buildPhases = (
+				4431465A2CAEE20B0050560B /* Sources */,
+				4431465B2CAEE20B0050560B /* Frameworks */,
+				4431465C2CAEE20B0050560B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				443146602CAEE20B0050560B /* PBXTargetDependency */,
+			);
+			name = "Focus FlowUITests";
+			productName = "Focus FlowUITests";
+			productReference = 4431465E2CAEE20B0050560B /* Focus FlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443146392CAEE20A0050560B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					443146402CAEE20A0050560B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					443146532CAEE20B0050560B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 443146402CAEE20A0050560B;
+					};
+					4431465D2CAEE20B0050560B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 443146402CAEE20A0050560B;
+					};
+				};
+			};
+			buildConfigurationList = 4431463C2CAEE20A0050560B /* Build configuration list for PBXProject "Focus Flow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443146382CAEE20A0050560B;
+			productRefGroup = 443146422CAEE20A0050560B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443146402CAEE20A0050560B /* Focus Flow */,
+				443146532CAEE20B0050560B /* Focus FlowTests */,
+				4431465D2CAEE20B0050560B /* Focus FlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4431463F2CAEE20A0050560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4431464F2CAEE20B0050560B /* Preview Assets.xcassets in Resources */,
+				4431464B2CAEE20B0050560B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443146522CAEE20B0050560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4431465C2CAEE20B0050560B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4431463D2CAEE20A0050560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443146472CAEE20A0050560B /* ContentView.swift in Sources */,
+				443146492CAEE20A0050560B /* Item.swift in Sources */,
+				443146452CAEE20A0050560B /* Focus_FlowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		443146502CAEE20B0050560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443146592CAEE20B0050560B /* Focus_FlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4431465A2CAEE20B0050560B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443146632CAEE20B0050560B /* Focus_FlowUITests.swift in Sources */,
+				443146652CAEE20B0050560B /* Focus_FlowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		443146562CAEE20B0050560B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443146402CAEE20A0050560B /* Focus Flow */;
+			targetProxy = 443146552CAEE20B0050560B /* PBXContainerItemProxy */;
+		};
+		443146602CAEE20B0050560B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 443146402CAEE20A0050560B /* Focus Flow */;
+			targetProxy = 4431465F2CAEE20B0050560B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		443146662CAEE20B0050560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		443146672CAEE20B0050560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		443146692CAEE20B0050560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Focus Flow/Focus_Flow.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Focus Flow/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.Focus-Flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4431466A2CAEE20B0050560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Focus Flow/Focus_Flow.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Focus Flow/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.Focus-Flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4431466C2CAEE20B0050560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.Focus-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Focus Flow";
+			};
+			name = Debug;
+		};
+		4431466D2CAEE20B0050560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.Focus-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Focus Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Focus Flow";
+			};
+			name = Release;
+		};
+		4431466F2CAEE20B0050560B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.Focus-FlowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Focus Flow";
+			};
+			name = Debug;
+		};
+		443146702CAEE20B0050560B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T3VFGZT69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "teadragonstudios.Focus-FlowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Focus Flow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4431463C2CAEE20A0050560B /* Build configuration list for PBXProject "Focus Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443146662CAEE20B0050560B /* Debug */,
+				443146672CAEE20B0050560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443146682CAEE20B0050560B /* Build configuration list for PBXNativeTarget "Focus Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443146692CAEE20B0050560B /* Debug */,
+				4431466A2CAEE20B0050560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4431466B2CAEE20B0050560B /* Build configuration list for PBXNativeTarget "Focus FlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4431466C2CAEE20B0050560B /* Debug */,
+				4431466D2CAEE20B0050560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4431466E2CAEE20B0050560B /* Build configuration list for PBXNativeTarget "Focus FlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4431466F2CAEE20B0050560B /* Debug */,
+				443146702CAEE20B0050560B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443146392CAEE20A0050560B /* Project object */;
+}
